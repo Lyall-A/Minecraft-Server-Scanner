@@ -36,8 +36,21 @@ function randomIpFromRange(start, end) {
     return intToIp(randomInt);
 }
 
+function expandIpRange(start, end) {
+    const startInt = ipToInt(start);
+    const endInt = ipToInt(end);
+
+    const ips = [];
+    for (let i = startInt; i <= endInt; i++) {
+        ips.push(intToIp(i));
+    }
+
+    return ips;
+}
+
 module.exports = {
     cidrToRange,
     intToIp,
-    randomIpFromRange
+    randomIpFromRange,
+    expandIpRange
 };

@@ -1,14 +1,276 @@
-# Accepts CIDR's and IP's
+# Accepts CIDR's, IP's and IP ranges
 # https://ipinfo.io/<ASN>
 
+# AS9370
+# 27.133.128.0/19IRR ValidROA Signed and Valid	SAKURA Internet Inc.jp	100% 651/651
+# 27.133.247.0/24IRR ValidROA Signed and Valid	SAKURA Internet Inc.jp	100% 651/651
+# 27.133.252.0/22IRR ValidROA Signed and Valid	SAKURA Internet Inc.jp	100% 651/651
+# 27.134.240.0/20IRR ValidROA Signed and Valid	SAKURA Internet Inc.jp	100% 651/651
+# 36.53.0.0/17IRR ValidROA Signed and Valid	SAKURA Internet Inc.jp	100% 651/651
+# 36.53.128.0/18IRR ValidROA Signed and Valid	SAKURA Internet Inc.jp	100% 651/651
+# 59.106.0.0/17IRR ValidROA Signed and Valid	SAKURA Internet Inc.jp	100% 651/651
+# 59.106.128.0/18IRR ValidROA Signed and Valid	SAKURA Internet Inc.jp	100% 651/651
+# 59.106.192.0/19IRR ValidROA Signed and Valid	SAKURA Internet Inc.jp	100% 651/651
+# 59.106.224.0/20IRR ValidROA Signed and Valid	SAKURA Internet Inc.jp	100% 651/651
+# 59.106.240.0/22IRR ValidROA Signed and Valid	SAKURA Internet Inc.jp	100% 651/651
+# 61.211.224.0/20IRR ValidROA Signed and Valid	SAKURA Internet Inc.jp	100% 651/651
+# 61.211.236.0/24IRR ValidROA Signed and Valid	SAKURA-NETjp	100% 651/651
+# 103.26.32.0/24IRR ValidROA Signed and Valid	Clairvoyace co Ltdjp	100% 651/651
+# 103.36.252.0/23IRR Valid	SKI Incorporatedjp	100% 651/651
+# 103.57.4.0/22IRR Valid	Expert Incorporatedjp	100% 651/651
+# 103.72.104.0/23IRR Valid	Doctionary Japan Limited Liability Companyjp	100% 651/651
+# 103.81.176.0/22IRR Valid	Seitou CO., LTD.jp	100% 651/651
+# 103.108.64.0/23IRR Valid	MWJ Incorporatedjp	100% 651/651
+# 103.143.122.0/23IRR Valid	Maneql Co.,Ltd.jp	100% 651/651
+# 110.44.128.0/20IRR ValidROA Signed and Valid	SAKURA Internet Inc.jp	100% 651/651
+# 110.232.160.0/21IRR ValidROA Signed and Valid	SAKURA Internet Inc.jp	100% 651/651
+# 110.232.168.0/21IRR ValidROA Signed and Valid	SAKURA Internet Inc.jp	100% 651/651
+# 112.109.0.0/20IRR ValidROA Signed and Valid	SAKURA Internet Inc.jp	100% 651/651
+# 113.20.160.0/19IRR ValidROA Signed and Valid	SAKURA Internet Inc.jp	100% 651/651
+# 122.202.96.0/19IRR ValidROA Signed and Valid	SAKURA Internet Inc.jp	100% 651/651
+# 133.167.0.0/24IRR ValidROA Signed and Valid	SAKURA-NETjp	100% 651/651
+# 153.121.0.0/19IRR ValidROA Signed and Valid	SAKURA Internet Inc.jp	100% 651/651
+# 153.121.32.0/19IRR ValidROA Signed and Valid	SAKURA Internet Inc.jp	100% 651/651
+# 153.121.64.0/19IRR ValidROA Signed and Valid	SAKURA Internet Inc.jp	100% 651/651
+# 153.125.224.0/20IRR ValidROA Signed and Valid	SAKURA Internet Inc.jp	100% 651/651
+# 160.16.0.0/17IRR ValidROA Signed and Valid	SAKURA Internet Inc.jp	100% 651/651
+# 160.16.128.0/17IRR ValidROA Signed and Valid	SAKURA Internet Inc.jp	100% 651/651
+# 163.43.0.0/16IRR ValidROA Signed and Valid	SAKURA Internet Inc.jp	100% 651/651
+# 183.181.102.0/24IRR Valid	Expert Incorporatedjp	100% 651/651
+# 202.181.96.0/20IRR ValidROA Signed and Valid	SAKURA Internet Inc.jp	100% 651/651
+# 202.222.16.0/20IRR ValidROA Signed and Valid	Japan Network Information Centerjp	100% 651/651
+# 210.188.224.0/19IRR ValidROA Signed and Valid	JPNIC-NET-JPjp	100% 651/651
+# 210.229.64.0/21IRR ValidROA Signed and Valid	SAKURA internet // EAST JAPAN BACKBONEjp	100% 651/651
+
+
 # AS58791
-118.27.224.0/20
-124.110.208.0/23
-133.117.64.0/20
-133.130.0.0/22
-133.130.4.0/22
-133.88.100.0/24
-133.88.101.0/24
-133.88.102.0/24
-133.88.103.0/24
-133.88.104.0/24
+# 118.27.224.0/20IRR Valid	GMO Internet Group, Inc.jp	100% 651/651
+# 124.110.208.0/23IRR Valid	GMO Internet Group, Inc.jp	100% 651/651
+# 124.110.208.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 124.110.209.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 133.88.96.0/19IRR Valid	GMO Internet Group, Inc.jp	100% 651/651
+# 133.88.96.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 133.88.97.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 133.88.98.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 133.88.99.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 133.88.100.0/24IRR Valid	CNODE-C3J2jp	100% 648/651
+# 133.88.101.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 133.88.102.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 133.88.103.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 133.88.104.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 133.88.105.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 133.88.106.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 133.88.107.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 133.88.108.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 133.88.109.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 133.88.110.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 133.88.111.0/24IRR Valid	CNODE-C3J2jp	100% 648/651
+# 133.117.64.0/20IRR Valid	interQ-CIDR-BLK-JPjp	100% 651/651
+# 133.130.0.0/22IRR Valid	GMO Internet Group, Inc.jp	100% 651/651
+# 133.130.4.0/22IRR Valid	GMO Internet Group, Inc.jp	100% 651/651
+# 150.95.8.0/21IRR Valid	Japan Network Information Centerjp	100% 651/651
+# 157.120.208.0/20IRR Valid	GMO Internet Group, Inc.jp	100% 651/651
+# 157.120.209.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 157.120.214.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.128.0/17IRR Valid	GMO Internet Group, Inc.jp	100% 651/651
+# 160.251.128.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.129.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.130.0/24IRR Valid	interQ-CIDR-BLK-JPjp	100% 648/651
+# 160.251.131.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.132.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.133.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.136.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.137.0/24IRR Valid	CNODE-C3J1jp	100% 648/651
+# 160.251.138.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.139.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.140.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.141.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.142.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.143.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.144.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.145.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.146.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.147.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.148.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.153.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.166.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.167.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.168.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.169.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.170.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.171.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.172.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.173.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.174.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.175.0/24IRR Valid	CNODE-C3J1jp	100% 648/651
+# 160.251.176.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.177.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.178.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.179.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.180.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.181.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.182.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.183.0/24IRR Valid	CNODE-C3J1jp	100% 648/651
+# 160.251.184.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.185.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.194.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.195.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.196.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.197.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.198.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.199.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.200.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.201.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.202.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.203.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.204.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.205.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.206.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.207.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.208.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.209.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.210.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.211.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.212.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.213.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.214.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.215.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.216.0/24IRR Valid	CNODE-C3J1-Wjp	100% 648/651
+# 160.251.217.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.218.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.219.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.220.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.221.0/24IRR Valid	CNODE-C3J1-Wjp	100% 648/651
+# 160.251.222.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.223.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.224.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.225.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.226.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.227.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.230.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.231.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.232.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.233.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.234.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.235.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.236.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.237.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.238.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.239.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.240.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.241.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.242.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.248.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.250.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.251.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.252.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.253.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.254.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 160.251.255.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 163.44.96.0/19IRR Valid	GMO Internet Group, Inc.jp	100% 651/651
+# 163.44.96.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 163.44.97.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 163.44.98.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 163.44.99.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 163.44.100.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 163.44.101.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 163.44.102.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 163.44.103.0/24IRR Valid	CNODE-C3J1jp	100% 648/651
+# 163.44.104.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 163.44.105.0/24IRR Valid	CNODE-C3J1-Wjp	100% 648/651
+# 163.44.106.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 163.44.107.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 163.44.108.0/24IRR Valid	CNODE-C3J1-Wjp	100% 648/651
+# 163.44.109.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 163.44.110.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 163.44.111.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 163.44.112.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 163.44.113.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 163.44.114.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 163.44.115.0/24IRR Valid	CNODE-C3J1jp	100% 648/651
+# 163.44.116.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 163.44.117.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 163.44.118.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 163.44.119.0/24IRR Valid	CNODE-C3J1jp	100% 648/651
+# 163.44.120.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 163.44.121.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 163.44.122.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 163.44.123.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 163.44.124.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 163.44.125.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 163.44.126.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 163.44.127.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+# 210.131.236.0/22IRR Valid	GMO Internet Group, Inc.jp	100% 651/651
+# 210.131.236.0/24IRR Valid	GMO Internet Group, Inc.jp	100% 648/651
+
+
+# AS58791
+118.27.224.0/20	GMO Internet Group, Inc.	4,096
+124.110.208.0/23	GMO Internet Group, Inc.	512
+133.117.64.0/20	GMO Internet Group, Inc.	4,096
+133.130.0.0/22	GMO Internet Group, Inc.	1,024
+133.130.4.0/22	GMO Internet Group, Inc.	1,024
+133.88.100.0/24	GMO Internet Group, Inc.	256
+133.88.101.0/24	GMO Internet Group, Inc.	256
+133.88.102.0/24	GMO Internet Group, Inc.	256
+133.88.103.0/24	GMO Internet Group, Inc.	256
+133.88.104.0/24	GMO Internet Group, Inc.	256
+
+# AS131965
+103.141.96.0/23	XSERVER Inc.	512
+103.141.96.0/24	XSERVER Inc.	256
+103.141.97.0/24	XSERVER Inc.	256
+103.3.0.0/22	XSERVER Inc.	1,024
+103.54.156.0/22	XSERVER Inc.	1,024
+120.136.12.0/22	XSERVER Inc.	1,024
+120.136.8.0/21	XSERVER Inc.	2,048
+120.136.8.0/22	XSERVER Inc.	1,024
+157.112.144.0/20	XSERVER Inc.	4,096
+157.112.144.0/21	XSERVER Inc.	2,048
+
+# Not sure about the chances here
+
+# # AS9824
+# 110.128.0.0/13	JCOM Co., Ltd.	524,288
+# 110.128.0.0/16	JCOM Co., Ltd.	65,536
+# 110.129.0.0/16	JCOM Co., Ltd.	65,536
+# 110.129.128.0/18	JCOM Co., Ltd.	16,384
+# 110.129.192.0/18	JCOM Co., Ltd.	16,384
+# 110.130.0.0/16	JCOM Co., Ltd.	65,536
+# 110.131.0.0/16	JCOM Co., Ltd.	65,536
+# 110.132.0.0/16	JCOM Co., Ltd.	65,536
+# 110.133.0.0/16	JCOM Co., Ltd.	65,536
+# 110.134.0.0/16	JCOM Co., Ltd.	65,536
+
+# # AS24282
+# 103.3.48.0/22	KAGOYA JAPAN Inc.	1,024
+# 124.248.144.0/20	KAGOYA JAPAN Inc.	4,096
+# 133.18.0.0/16	KAGOYA JAPAN Inc.	65,536
+# 153.127.224.0/19	KAGOYA JAPAN Inc.	8,192
+# 203.142.192.0/20	KAGOYA JAPAN Inc.	4,096
+# 203.142.208.0/21	KAGOYA JAPAN Inc.	2,048
+# 210.134.48.0/20	KAGOYA JAPAN Inc.	4,096
+
+# # AS17511
+# 101.140.0.0/14	OPTAGE Inc.	262,144
+# 103.112.180.0/22	7-1-4 Sezaki	1,024
+# 103.116.152.0/22	EMUZU Incorporation	1,024
+# 103.124.200.0/22	K&K Corporation Ltd.	1,024
+# 103.142.132.0/23	GOALD Co., Ltd	512
+# 103.65.208.0/22	FLEX LLC.	1,024
+# 103.84.124.0/22	OPTAGE Inc.	1,024
+# 103.95.206.0/24	5-15-1 HIGASHI UENO	256
+# 103.97.232.0/22	Web planning inc	1,024
+# 103.97.236.0/22	Reange Co. Ltd.	1,024
+
+# # AS18081
+# 117.108.0.0/16	KCN-Net, Internet Service Provider	65,536
+# 117.108.0.0/18	KCN-Net, Internet Service Provider	16,384
+# 117.108.128.0/18	KCN-Net, Internet Service Provider	16,384
+# 117.108.192.0/18	KCN-Net, Internet Service Provider	16,384
+# 117.108.64.0/18	KCN-Net, Internet Service Provider	16,384
+# 117.109.0.0/16	KCN-Net, Internet Service Provider	65,536
+# 117.109.0.0/18	KCN-Net, Internet Service Provider	16,384
+# 117.109.128.0/18	KCN-Net, Internet Service Provider	16,384
+# 117.109.192.0/18	Cable TV and Internet Service, 3-4-10 Noda-cho, Kishiwada city, Osaka	16,384
+# 117.109.64.0/18	KCN-Net, Internet Service Provider	16,384

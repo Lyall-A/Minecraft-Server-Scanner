@@ -1,3 +1,7 @@
 {
-    "ipRangesLocation": "ip ranges.txt"
+    "ipRangesLocation": "ip ranges.txt",
+    "ipsLocation": "ips.txt",
+    "scannedIpsLocation": "scanned.txt",
+    "threads": 256,
+    "timeout": 2500
 }
