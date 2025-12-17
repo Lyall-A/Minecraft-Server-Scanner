@@ -1,11 +1,13 @@
-const { Client } = require('../lib/minecraft');
+const express = require('express');
+const path = require('path');
 
-const host = 'mc.hypixel.net';
-const port = 25565;
+const setupDb = require('./utils/setupDb');
 
-const client = new Client(host, port);
-console.log('Connecting');
-client.connect();
-client.on('connected', () => {
-    client.getStatus().then(console.log);
-});
+const { config, app, db } = require('./globals');
+
+setupDb();
+
+app.use('/api/v1', require('./api/v1'));
+app.use(express.static(path.join(__dirname, 'public')));
+
+app.listen(config.port, config.hostname, () => console.log(`Listening at ${config.hostname || ''}:${config.port}`));
