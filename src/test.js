@@ -3,11 +3,11 @@ const { Client } = require('../lib/minecraft');
 
 // const publicKey = crypto.createPublicKey({
 //     key: require('fs').readFileSync('./test.der'),
-//     format: "der",
-//     type: "spki",
+//     format: 'der',
+//     type: 'spki',
 // });
 
-return;
+// return;
 
 // const client = new Client('mc.hypixel.net', 25565);
 const client = new Client('192.168.1.1', 25565);
